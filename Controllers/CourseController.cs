@@ -15,10 +15,10 @@ namespace Westcoast_education_cicd.Controllers
         {
             new Course {Id = 1, Name = "Math" },
             new Course {Id = 2, Name = "English" },
-            new Course {Id = 2, Name = "Science" },
-            new Course {Id = 2, Name = "Biology" },
-            new Course {Id = 2, Name = "Computer Science" },
-            new Course {Id = 2, Name = "History" }
+            new Course {Id = 3, Name = "Science" },
+            new Course {Id = 4, Name = "Biology" },
+            new Course {Id = 5, Name = "Computer Science" },
+            new Course {Id = 6, Name = "History" }
         };
         [HttpGet]
         public ActionResult<IEnumerable<Course>> Get()
